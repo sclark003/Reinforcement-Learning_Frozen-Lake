@@ -9,6 +9,7 @@ There are two different sizes of the Frozen lake:
 ![Big Frozen Lake](https://user-images.githubusercontent.com/60785645/105031109-b96ee900-5a4c-11eb-89ee-410c22a8fdc5.png)
 
 Each square in the grid refers to a state. There is also an additional absorbing state.
+
 Four types of tile:
 - Grey = Start tile
 - Frozen lake = Light blue
@@ -19,4 +20,4 @@ If an action taken would cause the agent to leave the grid, the agent will just 
 Each action taken at the absorbing state, leads to the absorbing state.
 There is a probability of 0.1 that the agent 'slips' on the frozen lake and ignores the chosen action.
 
-The agent recieves a reward 1 upon taking an action at the goal. In every other case, the reard is zero.
+The agent recieves a reward 1 upon taking an action at the goal. In every other case, the reward is zero.
